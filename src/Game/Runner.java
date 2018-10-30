@@ -30,6 +30,7 @@ public class Runner {
 		int y = (int)(Math.random()*building.length);
 		building[x][y] = new WinningRoom(x, y);
 
+		//Create a random trapped room that is not the same room as the winning room.
 		int x2 = (int)(Math.random()*building.length);
 		int y2 = (int)(Math.random()*building.length);
 		if(x == x2 && y == y2)
