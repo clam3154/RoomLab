@@ -9,6 +9,7 @@ public class TrappedRoom extends Room
     {
         super(x, y);
     }
+    @Override
     public void enterRoom(Person x) {
 
         occupant = x;
